@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class TestjenkinspipelineApplication {
 
 	@GetMapping
-	public String message() {return "welcome to jenkins pipeline tutorial javatechie"}
+	public String message() {return "welcome to jenkins pipeline tutorial javatechie";}
 
 	public static void main(String[] args) {
 		SpringApplication.run(TestjenkinspipelineApplication.class, args);
